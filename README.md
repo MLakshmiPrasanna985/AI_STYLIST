@@ -1,7 +1,10 @@
- AI Stylist: Image-Based Recommendation System  
- Overview  
-The AI Stylist project is an image-based recommendation system that leverages deep learning and **machine learning** techniques to recommend products to users. By combining pre-trained models for visual feature extraction (e.g., VGG16 and ResNet50) and hybrid approaches for content-based and collaborative filtering (e.g., TF-IDF + Word2Vec), the system provides accurate and meaningful product recommendations.
-Features  
+
+# AI Stylist: Image-Based Recommendation System  
+
+## Overview  
+The **AI Stylist** project is an **image-based recommendation system** that leverages **deep learning** and **machine learning** techniques to recommend products to users. By combining pre-trained models for visual feature extraction (e.g., VGG16 and ResNet50) and hybrid approaches for content-based and collaborative filtering (e.g., TF-IDF + Word2Vec), the system provides accurate and meaningful product recommendations.
+
+## Features  
 - **Content-Based Filtering:**  
   Recommends items based on the textual and visual similarity of products using techniques like TF-IDF and Word2Vec.  
 - **Collaborative Filtering:**  
@@ -11,11 +14,11 @@ Features
 - **Feature Embedding Analysis:**  
   Uses embeddings to verify the grouping of visually or semantically similar items.  
 
-Tech Stack  
-Languages  
+## Tech Stack  
+### Languages  
 - Python  
 
-Tools  
+### Tools  
 - Jupyter Notebook  
 - Google Colab  
 
@@ -57,21 +60,23 @@ Tools
   Products are recommended based on their visual similarity, using embeddings from **VGG16** and **ResNet50**.  
 - **Text-Based Recommendations:**  
   Recommendations are generated based on product names, descriptions, and metadata using **TF-IDF** and **Word2Vec**.  
-- Hybrid Recommendations: 
-  Combines both visual and text-based filtering for robust suggestions.
-How to Use  
+- **Hybrid Recommendations:**  
+  Combines both visual and text-based filtering for robust suggestions.  
+
+## How to Use  
 1. Clone the repository:  
 
-   git clone url  
-   cd AI-Stylist  
- 
-2. Open the project in Jupyter Notebook or Google Colab.
-3. Run the notebooks step by step to process data, extract features, and generate recommendations.  
+   git clone <repository_url>  
+   cd AI-Stylist
+   
+3. Open the project in **Jupyter Notebook** or **Google Colab**.  
+4. Run the notebooks step by step to process data, extract features, and generate recommendations.  
 
- Future Enhancements  
+## Future Enhancements  
 - Integrate additional pre-trained models like EfficientNet for advanced visual feature extraction.  
 - Add real-time recommendation updates as new products or user interactions are introduced.  
 - Include more advanced NLP models like BERT for better text-based recommendations.  
 
-Contact  
+
+## Contact  
 For any queries or suggestions, feel free to contact us.
